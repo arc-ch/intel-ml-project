@@ -13,7 +13,9 @@ from langchain_community.llms import GooglePalm
 from dotenv import load_dotenv
 import os
  # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
+import warnings
+warnings.filterwarnings("ignore")
 
 # Putting CustomResponseParser class and chat_with_dataset function outside the main_app function
 class CustomResponseParser(ResponseParser):
