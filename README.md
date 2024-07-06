@@ -1,4 +1,4 @@
-# Adult Income Machine Learning Project for Intel 🚀
+# 🚀Adult Income Machine Learning Project for Intel 
 
 Welcome to the Adult Income Machine Learning Project. This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset.
 
