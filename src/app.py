@@ -448,7 +448,7 @@ def load_data(uploaded_file):
 # Main Streamlit app
 st.header(' :blue[INTEL] ML PROJECT BY **:red[ THE SEMICOLONS]** 🌟', divider='rainbow')
 
-uploaded_file = st.sidebar.file_uploader("Upload your CSV file", type=["csv"])
+uploaded_file = st.sidebar.file_uploader("Upload adult.csv file", type=["csv"])
 df, df2 = load_data(uploaded_file)
 
 # Hiding Streamlit hamburger and footer 
@@ -468,4 +468,4 @@ if df is not None and df2 is not None:
     st.write("Data loaded successfully!")
     main_app(df, df2)
 else:
-    st.warning("### Please upload a CSV file to proceed.")
+    st.warning("### Please upload adult.csv file to proceed.")
