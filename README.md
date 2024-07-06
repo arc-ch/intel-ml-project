@@ -1,6 +1,9 @@
 # 🚀Adult Income Machine Learning Project for Intel 
 
-Welcome to the Adult Income Machine Learning Project. This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset.
+Welcome to the Adult Income Machine Learning Project. This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset. 
+
+  ### 🔗LIVE NOW- https://archit-adult-income.streamlit.app/ OR https://archit-adult-income.onrender.com/   (SLOW)
+
 
 ## Dataset 📊
 The dataset used in this project is the [Adult Census Income dataset](https://archive.ics.uci.edu/dataset/2/adult). It is a public dataset provided by the UCI Machine Learning Repository, containing demographic information about individuals along with their income levels.
@@ -108,8 +111,9 @@ streamlit run app.py
   -  Compare the income distribution between all genders.
   -  Do men or women tend to work longer hours per week on average, and how does this correlate with their income levels?
   -  Show age, workclass, occupation, and income of 5 males who work for 99 hours per week.
-  -  How many individuals are in each relationship category (e.g., Husband, Wife, etc.)?
-  Note:
+  -  How many individuals are in each relationship category (e.g., Husband, Wife, etc.)?  
+  
+ ### Note:
   - You can download the query output as a CSV file by clicking on the download button on the column header.
   - You can search for specific values within the output.
   - You can sort the results by tapping on the respective column headers.
