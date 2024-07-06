@@ -1,6 +1,6 @@
-# INTEL Machine Learning Project 🚀
+# Adult Income Machine Learning Project for Intel 🚀
 
-Welcome to the INTEL Machine Learning Project by The Semicolons! This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset.
+Welcome to the Adult Income Machine Learning Project. This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset.
 
 ## Dataset 📊
 The dataset used in this project is the [Adult Census Income dataset](https://archive.ics.uci.edu/dataset/2/adult). It is a public dataset provided by the UCI Machine Learning Repository, containing demographic information about individuals along with their income levels.
@@ -17,11 +17,12 @@ The dataset used in this project is the [Adult Census Income dataset](https://ar
 5. Running the App
 6. Important Notice: API and LangChain Considerations
 
-## 1. Project Overview 📝
-The INTEL project uses the Adult Census Income dataset to explore various demographic features and their relationships with income levels. The app provides a comprehensive set of tools for data analysis, visualization, and prediction.
 
-## 2. Features 🛠️
-  ### 1.Data Overview
+##  1. Project Overview 📝
+The Project uses the Adult Census Income dataset to explore various demographic features and their relationships with income levels. The app provides a comprehensive set of tools for data analysis, visualization, and prediction.
+
+##  2. Features 🛠️
+  ### 1. Data Overview
   Explore the dataset's structure, including summary statistics, missing values, and unique value counts for each feature.
   ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/7db2a056-c3a8-43ec-bd8a-d953c2902d2b)
   
@@ -107,11 +108,11 @@ streamlit run app.py
 
 ## 6. Important Notice: API and LangChain Considerations
 
-  ### API Reliability
+  ### API Reliability 🛠️
   
   The "Chat with Dataset" feature relies on the GenAI API (formerly GooglePalm), which may experience downtime or disruptions. If the API is not functioning, you can view a demo [here]
   
-  ### LangChain Deprecation
+  ### LangChain Deprecation ⚠️
   
   This application uses LangChain for integration with language models like GenAI. Please be aware that LangChain could undergo changes or be deprecated in the future. Stay updated with the [LangChain documentation](https://langchain.readthedocs.io/en/latest/) for compatibility and support information.
   ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a5b9ae74-eba6-43b1-94db-15adb64f7306)
