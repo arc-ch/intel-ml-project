@@ -468,4 +468,4 @@ if df is not None and df2 is not None:
     st.write("Data loaded successfully!")
     main_app(df, df2)
 else:
-    st.warning("### Please upload adult.csv file to proceed.")
+    st.warning("### Please upload adult.csv file from the sidebar to proceed.")
