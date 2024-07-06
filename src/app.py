@@ -44,7 +44,7 @@ def chat_with_dataset(df):
     
 
     if query:
-        api_key = 'AIzaSyDlXYnP2xNNa0DNa7dPN89u2L4IuAchEg4'
+        api_key = 'GOOGLEPALM_API_KEY'
 
         # Retrieve the API key from the environment variable
        # api_key = os.getenv('GOOGLEPALM_API_KEY')
