@@ -1,4 +1,5 @@
 import math
+import dotenv
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -13,9 +14,7 @@ from langchain_community.llms import GooglePalm
 from dotenv import load_dotenv
 import os
  # Load environment variables from .env file
-#load_dotenv()
-import warnings
-warnings.filterwarnings("ignore")
+dotenv.load_dotenv()
 
 # Putting CustomResponseParser class and chat_with_dataset function outside the main_app function
 class CustomResponseParser(ResponseParser):
@@ -35,7 +34,7 @@ class CustomResponseParser(ResponseParser):
         return
 
 def chat_with_dataset(df):
-    st.subheader(" Chat with Adult Census Income Dataset ⌨️")
+    st.subheader(":orange[ Chat with Adult Census Income Dataset] ⌨️")
 
     with st.expander("🔎 Dataframe Preview"):
         st.write(df.head(3))
@@ -66,7 +65,7 @@ def chat_with_dataset(df):
         st.write(answer)  # Display the final answer
 
     # Add some example queries to help users get started
-    st.markdown(""" ## Example Queries
+    st.markdown(""" ### :red[Example Queries: ]
     ```python
     -> List the top 5 most common native countries in the dataset.          
     -> What is the average age of individuals based on their marital status?            
@@ -404,6 +403,8 @@ def main_app(df, df2):
                 st.write('### Income is predicted to be >50K')
 
     elif page == "Chat with Dataset":
+        st.markdown("##### Click below if API is not working ⬇️")
+        st.link_button("VIEW DEMO", "https://drive.google.com/drive/u/0/folders/1XzHijssu3pXTQf782EhGbahMrYvZGf6b", type="primary", help="Click to view demo in case API isn't working") 
         # Call the chat_with_dataset function
         chat_with_dataset(df2)
 
