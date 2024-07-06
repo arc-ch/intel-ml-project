@@ -137,8 +137,8 @@ def main_app(df, df2):
     page = st.sidebar.selectbox("Select a Page:", ["Data Overview", "Visualizations", "Prediction", "Chat with Dataset"])
 
     st.sidebar.title(":orange[Download Files ⬇️]")
-    st.sidebar.link_button("Download Jupyter Notebook", "https://colab.research.google.com/drive/1BZ6W3xpd7zaLoj7dVbLmILvjojpSXACl?usp=sharing")
-    st.sidebar.link_button("Download Project Report", "https://drive.google.com/drive/folders/1pNtT3hUaFxUFcrjZcdoJd5e0qcw9DynU?usp=sharing")
+    st.sidebar.link_button("Download Jupyter Notebook", "https://drive.google.com/drive/folders/1675MaFgaL5hGgCXpsvZfpWrh9zehwctL?usp=sharing")
+    st.sidebar.link_button("Download Project Report", "https://drive.google.com/drive/folders/1fpTU0YeSEMaNCKWALII2BGE5QdvrUDgn?usp=drive_link")
 
     #st.sidebar.markdown("---")
     #st.sidebar.markdown("## Made by Archit Choudhury")
@@ -408,7 +408,7 @@ def main_app(df, df2):
 
     elif page == "Chat with Dataset":
         st.markdown("##### Click below if API is not working ⬇️")
-        st.link_button("VIEW DEMO", "https://drive.google.com/drive/u/0/folders/1XzHijssu3pXTQf782EhGbahMrYvZGf6b", type="primary", help="Click to view demo in case API isn't working") 
+        st.link_button("VIEW DEMO", "https://drive.google.com/drive/folders/1XzHijssu3pXTQf782EhGbahMrYvZGf6b?usp=sharing", type="primary", help="Click to view demo in case API isn't working") 
         # Call the chat_with_dataset function
         chat_with_dataset(df2)
 
