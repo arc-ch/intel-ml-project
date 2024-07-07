@@ -150,8 +150,9 @@ def main_app(df, df2):
 
     if page == "Data Overview":
         with st.expander("##### :orange[PROBLEM STATEMENT 12: ]"):
-
-         st.write("Knowledge Representation and Insights Generation from Structured Datasets:")
+         
+         st.markdown("[Knowledge Representation and Insights Generation from Structured Datasets](https://drive.google.com/drive/u/0/folders/1k2PkCQC2oVzCHam0lxOHYZ0iJPoqeTNC)")
+         #st.write("Knowledge Representation and Insights Generation from Structured Datasets:")
          st.write("     The primary objective of this project is to develop an AI-based solution that can effectively represent knowledge and generate insights from any structured dataset. The solution should be capable of processing and analyzing structured data, identifying patterns, and generating meaningful insights that can aid in decision-making processes.")
         st.write("## Adult Income Dataset Analysis 📊")
         st.write("### Data Overview and Preprocessing")
