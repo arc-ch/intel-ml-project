@@ -337,6 +337,15 @@ def main_app(df, df2):
         plt.legend(title="Income")
         st.pyplot(plt)
 
+        st.write("### Income Distribution based on Race")
+        plt.figure(figsize=(9, 5))
+        sns.countplot(data=df2, x="race", hue="income")
+        plt.title("Income Distribution based on Race")
+        plt.xlabel("Race")
+        plt.ylabel("Count")
+        plt.legend(title="Income")
+        st.pyplot(plt)
+     
         st.write("### Histogram")
         selected_columns = ['age', 'fnlwgt', 'hours-per-week', 'educational-num', 'income']
         df_selected = df[selected_columns]
