@@ -40,7 +40,7 @@ The Project uses the Adult Census Income dataset to explore various demographic 
   - Correlation Heatmap
     
     ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/d43eb6a4-314e-4d85-9126-3bbdbabc61a2)
-  - Income Distribution by Workclass, Occupation, Marital Status, Gender, and Education Level
+  - Income Distribution by Workclass, Occupation, Marital Status, Gender, Race and Education Level
     
     ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a8d99e75-94d4-4114-bf92-6e421edde3c9)
   
