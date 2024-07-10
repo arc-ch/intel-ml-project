@@ -194,13 +194,18 @@ def chat_with_dataset(df):
     with st.expander("🔎 Dataframe Preview"):
         st.write(df.head(3))
 
+    gemini_api_key = st.text_input("Enter your Gemini API Key", type="password")
+
+    if not gemini_api_key:
+        st.warning("Please enter your Gemini API Key above.")
+
     query = st.text_area("🗣️ Chat with Dataframe", placeholder="Type your query and press Ctrl + Enter for output:")
     container = st.container()
 
-    if query:
-        api_key = os.getenv('GEMINI_API_KEY')  # Replace with your actual API key
-       
-        llm = GeminiLLM(api_key)
+    if query and gemini_api_key:
+        #api_key = os.getenv('GEMINI_API_KEY')  # Replace with your actual API key
+    
+        llm = GeminiLLM(gemini_api_key)
 
         query_engine = GeminiSmartDataframe(
             df,
@@ -627,3 +632,4 @@ if df is not None and df2 is not None:
     main_app(df, df2)
 else:
     st.warning("### Please upload a CSV file to proceed.")
+    
