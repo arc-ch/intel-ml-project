@@ -85,6 +85,7 @@ Ensure you have the following Python packages installed:
 - pandasai
 - langchain_community
 - python-dotenv
+- google-generativeai
 
 ## 4. Installation 🛠️
 Clone the repository:
