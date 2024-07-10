@@ -194,10 +194,10 @@ def chat_with_dataset(df):
     with st.expander("🔎 Dataframe Preview"):
         st.write(df.head(3))
 
-    gemini_api_key = st.text_input("Enter your Gemini API Key", type="password")
+    gemini_api_key = st.text_input("Enter your Gemini API Key from ", type="password")
 
     if not gemini_api_key:
-        st.warning("Please enter your Gemini API Key above.")
+        st.warning("Please enter your Gemini API Key above by generating from https://aistudio.google.com/app/apikey")
 
     query = st.text_area("🗣️ Chat with Dataframe", placeholder="Type your query and press Ctrl + Enter for output:")
     container = st.container()
@@ -573,6 +573,7 @@ def main_app(df, df2):
                 st.write('### Income is predicted to be >50K')
 
     elif page == "Chat with Dataset":
+        st.link_button("VIEW DEMO", "https://drive.google.com/drive/u/0/folders/1XzHijssu3pXTQf782EhGbahMrYvZGf6b", type="primary", help="Click to view demo in case API isn't working") 
         # Call the chat_with_dataset function
         chat_with_dataset(df2)
 
