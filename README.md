@@ -2,7 +2,11 @@
 
 Welcome to the Adult Income Machine Learning Project. This project aims to analyze the Adult Census Income dataset and build a predictive model for income classification using Logistic Regression. The app also includes features for data visualization and an interactive chat interface for querying the dataset. 
 
-  ### 🔗LIVE NOW- https://archit-adult-income.streamlit.app/ OR https://archit-adult-income.onrender.com/   (SLOW)
+  ### 🔗LIVE NOW- 
+  #### Version 1: (Chat with Dataset shows PaLM2 Deprecation errors)
+  https://archit-adult-income.streamlit.app/ OR https://archit-adult-income.onrender.com/   (SLOW)
+  #### Version 2: (Chat with Dataset working)
+  https://archit-adult-income-v2.streamlit.app/ ( Gemini API entered by User)
 
 
 ## Dataset 📊
