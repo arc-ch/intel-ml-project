@@ -59,6 +59,13 @@ Predict income based on user-provided demographic information such as age, educa
 
 ### 4. Chat with Dataset 💬
 Interactively query the dataset using natural language to get answers and visualizations based on your questions.
+[![Button Icon]][Link]
+[Link]: # 'https://drive.google.com/file/d/1T995U-vWWqWPR4tJLd6eiy5rzoY-zK12/view?usp=drive_link'
+[Button Icon]: https://img.shields.io/badge/Watch_the_Demo_Video-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign
+
+
+[![Watch the Demo Video](https://img.shields.io/badge/Watch_the_Demo_Video-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign)](https://drive.google.com/file/d/1T995U-vWWqWPR4tJLd6eiy5rzoY-zK12/view?usp=drive_link)
+
 
 ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/9059dd09-a437-4422-8949-4b6c06cd5b55)
 ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/fe8ce178-4e53-4adb-911c-3f1498aaffa9)
