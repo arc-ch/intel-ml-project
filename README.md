@@ -25,55 +25,48 @@ The dataset used in this project is the [Adult Census Income dataset](https://ar
 6. [Important Notice: API and LangChain Considerations](#important-notice-api-and-langchain-considerations)
 
 
-##  1. Project Overview 📝
+## 1. Project Overview 📝
 The Project uses the Adult Census Income dataset to explore various demographic features and their relationships with income levels. The app provides a comprehensive set of tools for data analysis, visualization, and prediction.
 
-##  2. Features 🛠️
-  ### 1. Data Overview
-  Insert adult.csv dataset to proceed 
-  
-  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/34e57e25-2133-49a6-98a3-08cda7e4f4c5)
+## 2. Features 🛠️
+### 1. Data Overview
+Insert adult.csv dataset to proceed 
 
-  Explore the dataset's structure, including summary statistics, missing values, and unique value counts for each feature.
-  
-  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/7db2a056-c3a8-43ec-bd8a-d953c2902d2b)
-  
-  
-  ### 2. Visualizations 📊
-  Generate insightful visualizations such as correlation heatmaps, distribution plots, and more:
-  - Correlation Heatmap
-    
-    ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/d43eb6a4-314e-4d85-9126-3bbdbabc61a2)
-  - Income Distribution by Workclass, Occupation, Marital Status, Gender, Race and Education Level
-    
-    ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a8d99e75-94d4-4114-bf92-6e421edde3c9)
-  
-  - Age Distribution by Income
-  - Pie-Chart of Workclass Distribution
-  - Histograms and Boxplots for numerical features
-  
-  ### 3. Prediction 🎯
-  Predict income based on user-provided demographic information such as age, education, work hours, marital status, workclass, occupation, relationship, race, gender, and native country.
-  
-  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/de2b011e-476b-47b7-b640-975bb00e9ecd)
-  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/cc8ac15a-5409-4d0d-a05d-37c775280a45)
-  
-  
-  
-  ### 4. Chat with Dataset 💬
-  Interactively query the dataset using natural language to get answers and visualizations based on your questions.
-  
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/9059dd09-a437-4422-8949-4b6c06cd5b55)
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/fe8ce178-4e53-4adb-911c-3f1498aaffa9)
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/ff5c7f79-301d-497e-886e-7da57535eb35)
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/2beb7df1-dea6-486c-ac9b-b5597b3d91a1)
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/d259a36f-d718-4c70-b0fc-657cfd51dbe5)
- ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a8d7da49-68e5-4f35-a248-941f0afa8c90)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/34e57e25-2133-49a6-98a3-08cda7e4f4c5)
 
- 
+Explore the dataset's structure, including summary statistics, missing values, and unique value counts for each feature.
 
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/7db2a056-c3a8-43ec-bd8a-d953c2902d2b)
 
- 
+### 2. Visualizations 📊
+Generate insightful visualizations such as correlation heatmaps, distribution plots, and more:
+- Correlation Heatmap
+
+  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/d43eb6a4-314e-4d85-9126-3bbdbabc61a2)
+- Income Distribution by Workclass, Occupation, Marital Status, Gender, Race and Education Level
+
+  ![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a8d99e75-94d4-4114-bf92-6e421edde3c9)
+
+- Age Distribution by Income
+- Pie-Chart of Workclass Distribution
+- Histograms and Boxplots for numerical features
+
+### 3. Prediction 🎯
+Predict income based on user-provided demographic information such as age, education, work hours, marital status, workclass, occupation, relationship, race, gender, and native country.
+
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/de2b011e-476b-47b7-b640-975bb00e9ecd)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/cc8ac15a-5409-4d0d-a05d-37c775280a45)
+
+### 4. Chat with Dataset 💬
+Interactively query the dataset using natural language to get answers and visualizations based on your questions.
+
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/9059dd09-a437-4422-8949-4b6c06cd5b55)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/fe8ce178-4e53-4adb-911c-3f1498aaffa9)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/ff5c7f79-301d-497e-886e-7da57535eb35)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/2beb7df1-dea6-486c-ac9b-b5597b3d91a1)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/d259a36f-d718-4c70-b0fc-657cfd51dbe5)
+![image](https://github.com/arc-ch/intel-ml-project/assets/134518231/a8d7da49-68e5-4f35-a248-941f0afa8c90)
+
 ## 3. Requirements
 Ensure you have the following Python packages installed:
 - streamlit
