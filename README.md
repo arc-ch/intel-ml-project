@@ -13,16 +13,16 @@ Welcome to the Adult Income Machine Learning Project. This project aims to analy
 The dataset used in this project is the [Adult Census Income dataset](https://archive.ics.uci.edu/dataset/2/adult). It is a public dataset provided by the UCI Machine Learning Repository, containing demographic information about individuals along with their income levels.
 
 ## Table of Contents
-1. Project Overview
-2. Features
-   - Data Overview
-   - Visualizations
-   - Prediction
-   - Chat with Dataset
-3. Requirements
-4. Installation
-5. Running the App
-6. Important Notice: API and LangChain Considerations
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+   - [Data Overview](#data-overview)
+   - [Visualizations](#visualizations)
+   - [Prediction](#prediction)
+   - [Chat with Dataset](#chat-with-dataset)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+5. [Running the App](#running-the-app)
+6. [Important Notice: API and LangChain Considerations](#important-notice-api-and-langchain-considerations)
 
 
 ##  1. Project Overview 📝
